@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<link rel="jslicense" href="/librejs.html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+	<!--generally paths start absolutely: e.g. /assets-->
+	<link href="/assets/bootstrap-6.0.0-alpha.1-dist/css/bootstrap.min.css" rel="stylesheet">
+	<!--Browser will not load a script with absolute path, so this one's an exception-->
+	<script type="module" src="assets/bootstrap-6.0.0-alpha.1-dist/js/bootstrap.bundle.min.js"></script>
+	<link href="/assets/css/fonts.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+	<title>GDucpm Blogs</title>
+</head>
+<body class="color-scheme-auto">
+	<nav class="navbar md:navbar-expand theme-danger navbar-translucent fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand hover-lift p-2 theme-danger theme-subtle rounded-5" href="/index.html">
+				<img src="/assets/img/gducpm.png" class="gducpm-navbar-logo me-3" alt="Logo">
+				GDucpm Blogs
+			</a>
+			<button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon" aria-hidden="true"></span>
+			</button>
+			<dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
+				<div class="drawer-header">
+					<h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+				</div>
+				<div class="drawer-body mb-2 md:mb-0">
+					<ul class="nav navbar-nav me-auto">
+						<li class="nav-item">
+							<a class="nav-link hover-lift active" aria-current="page" href="/index.html">Home</a>
+						</li>
+					</ul>
+				</div>
+			</dialog>
+		</div>
+	</nav>
+	<header class="container-fluid gducpm-header-style text-center p-12 text-white">
+		<div class="mt-12 mb-12 invisible">pad</div>
+		<h1 class="gducpm-header-slide-in-left fg-white">GDucpm Blogs</h1>
+		<!--<p class="gducpm-header-slide-in-right fg-white">Software freedom, tracking ethics, digital data sovereignty, GNU/Linux</p>-->
+		<p class="gducpm-header-slide-in-right fg-white"><i>The love of liberty is the love of others; the love of power is the love of ourselves.</i> &mdash; William Hazlitt</p>
+	</header>
+	<main class="container-fluid pt-3">
+		<p class="h1">NOTICE!!! THIS IS JUST A PAGE UPLOADED TO GITHUB FOR TESTING, AND IS CURRENTLY NOT IN OPERATION.</p>
+		<div class="alert d-flex justify-content-between align-items-center p-3 mb-4 hover-lift" role="alert">
+			<div>
+				<strong>Want to follow via RSS?</strong> Add the feed to your favorite libre reader.
+			</div>
+			<a href="/blogs/feed.xml" class="btn btn-outline btn-styled theme-danger hover-lift">
+				RSS Feed
+			</a>
+		</div>
+		<section>
+			<h2 class="mb-3 border-bottom p-7 mb-7 text-center">Latest Posts</h2>
+			<article class="card mb-3 hover-lift">
+				<div class="card-body">
+					<div class="text-muted small mb-1">First posted: | Last revised: | Last updated: </div>
+					<div><span class="chip theme-danger hover-lift">Software freedom</span></div>
+					<h3 class="card-title text-truncate">Why your computer isn't yours (and how to own it)</h3>
+					<p class="card-text text-secondary">This article summarizes more than four decades of effort from Richard Stallman and the FSF to promote software freedom.</p>
+					<a href="/blogs/y-ur-cmp-isnt-urs.html" class="fg-danger text-decoration-none icon-link icon-link-hover">
+						Read Article
+						<svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+							<path d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+						</svg>
+					</a>
+				</div>
+			</article>
+		</section>
+	</main>
+	<footer class="bg-danger py-12 text-center">
+		<h3 class="fg-white">GDucpm Blogs</h3>
+		<div class="fg-white">The blog contents are licensed under <a href="https://creativecommons.org/licenses/by-nd/4.0/" class="fg-black">Creative Commons Attribution-NoDerivatives 4.0 International</a></div>
+		<div class="fg-white">This site contains only libre scripts. View <a href="/librejs.html" class="fg-black">JavaScript Licenses</a></div>
+	</footer>
+</body>
+</html>

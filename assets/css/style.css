@@ -1,0 +1,59 @@
+html {
+	scroll-padding-top: 80px;
+}
+
+:root {
+    --bs-font-monospace: 'Ubuntu Sans Mono Variable', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+code, kbd, pre, samp, .font-monospace {
+    font-family: var(--bs-font-monospace);
+}
+
+body {
+	font-family: 'Ubuntu Sans Variable', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+	min-height: 100vh;
+}
+
+@keyframes gducpm-header-slide-in-left {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes gducpm-header-slide-in-right {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.gducpm-header-style {
+    background: linear-gradient(45deg, #dc3545, #ff6978);
+}
+
+.gducpm-header-slide-in-left {
+    animation: gducpm-header-slide-in-left 1s ease-out both;
+}
+
+.gducpm-header-slide-in-right {
+    animation: gducpm-header-slide-in-right 1s ease-out both;
+    animation-delay: 0.3s; 
+    opacity: 0; /* Keeps it hidden until the delay finishes */
+}
+
+.gducpm-navbar-logo {
+    width: 40px !important;
+}
