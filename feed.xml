@@ -10,11 +10,11 @@
         <atom:link href="https://gducpm.github.io/blogs/feed.xml" rel="self" type="application/rss+xml"/>
         
         <item>
-            <title>Why your computer isn't yours (and how to own it)</title>
-            <link>https://gducpm.github.io/blogs/y-ur-cmp-isnt-urs.html</link>
-            <guid isPermaLink="true">https://gducpm.github.io/blogs/y-ur-cmp-isnt-urs.html</guid>
+            <title>AI Is Becoming WAY TOO OVERHYPED</title>
+            <link>https://gducpm.github.io/blogs/ai-overhype.html</link>
+            <guid isPermaLink="true">https://gducpm.github.io/blogs/ai-overhype.html</guid>
             <pubDate>Sun, 15 Nov 2026 00:00:00 +0700</pubDate>
-            <description>This article summarizes more than four decades of effort from Richard Stallman and the FSF to promote software freedom.</description>
+            <description>Why has AI become so overhyped? And why SHOULDN'T you rely on it? Find out!</description>
         </item>
     </channel>
 </rss>

@@ -12,10 +12,12 @@
 	<title>JavaScript Licenses &mdash; GDucpm Blogs</title>
 </head>
 <body class="color-scheme-auto">
+	<script src="https://keepandroidopen.org/banner.js?hidebutton=off"></script>
+	<!--for textbased browsers and emacs e.w.w-->
 	<div class="d-none invisible" aria-hidden="true">THIS SITE IS LIBREJS-COMPLIANT, BY THE WAY :)</div>
-	<nav class="navbar md:navbar-expand theme-danger navbar-translucent fixed-top">
+	<nav class="navbar md:navbar-expand theme-danger navbar-translucent sticky-top">
 		<div class="container-fluid">
-			<a class="navbar-brand hover-lift p-2 theme-danger theme-subtle rounded-5" href="/blogs/index.html">
+			<a class="navbar-brand hover-lift p-2 theme-danger theme-subtle rounded-pill" href="/blogs/index.html">
 				<img src="/blogs/assets/img/gducpm.png" class="gducpm-navbar-logo me-3" width="40" height="40" alt="Logo">
 				GDucpm Blogs
 			</a>
@@ -30,17 +32,20 @@
 				<div class="drawer-body mb-2 md:mb-0">
 					<ul class="nav navbar-nav me-auto">
 						<li class="nav-item">
-							<a class="nav-link hover-lift" href="/blogs/index.html">Home</a>
+							<a class="nav-link hover-lift rounded-pill" href="/blogs/index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link hover-lift rounded-pill" href="/blogs/feed.xml">Feed</a>
 						</li>
 					</ul>
 				</div>
 			</dialog>
 		</div>
 	</nav>
-	<header class="container-fluid gducpm-header-style text-center p-12 text-white">
+	<header class="container-fluid gducpm-header-style text-center p-12 fg-white">
 		<div class="mt-12 mb-12" style="height: 1px" aria-hidden="true"></div>
-		<h1 class="fg-white">JavaScript License Information for LibreJS Compliance</h1>
-		<p class="fg-white">This site uses the <a href="https://www.gnu.org/software/librejs/free-your-javascript.html" class="fg-black">JavaScript License Web Labels</a> standard to declare the licenses of our scripts. This page is required for LibreJS to correctly parse the licenses and allow loading scripts, and declare the libre software licenses in a machine-readable manner.</p>
+		<h1>JavaScript License Information for LibreJS Compliance</h1>
+		<p>This site uses the <a href="https://www.gnu.org/software/librejs/free-your-javascript.html" class="fg-black">JavaScript License Web Labels</a> standard to declare the licenses of our scripts. This page is required for LibreJS to correctly parse the licenses and allow loading scripts, and declare the libre software licenses in a machine-readable manner.</p>
 	</header>
 	<main class="container">
 		<h2 class="mb-3 border-bottom p-7 mb-7 text-center">Licenses</h2>
@@ -58,17 +63,22 @@
 					<tr>
 						<td><a href="/blogs/assets/bootstrap-6.0.0-alpha.1-dist/js/bootstrap.bundle.min.js" class="theme-danger">bootstrap.bundle.min.js</a></td>
 						<td><a href="http://www.jclark.com/xml/copying.txt" class="theme-danger">Expat (MIT)</a></td>
-						<td><a href="/blogs/assets/bootstrap-6.0.0-alpha.1-dist/js/bootstrap.bundle.js" class="theme-danger">bootstrap.min.js</a></td>
+						<td><a href="/blogs/assets/bootstrap-6.0.0-alpha.1-dist/js/bootstrap.bundle.js" class="theme-danger">bootstrap.bundle.js</a></td>
+					</tr>
+					<tr>
+						<td><a href="https://keepandroidopen.org/banner.js" class="theme-danger">banner.js</a></td>
+						<td><a href="http://www.gnu.org/licenses/gpl-3.0.html" class="theme-danger">GPLv3-ONLY</a></td>
+						<td><a href="https://keepandroidopen.org/banner.js" class="theme-danger">banner.js</a></td>
 					</tr>
 				</tbody>
 			</table>
 		</div>
 	</main>
-	<footer class="bg-danger py-12 text-center">
-		<h2 class="fg-white">GDucpm Blogs</h3>
-		<div class="fg-white">The blog contents are licensed under <a href="https://creativecommons.org/licenses/by-nd/4.0/" class="fg-black">Creative Commons Attribution-NoDerivatives 4.0 International</a></div>
-		<div class="fg-white">This site contains only libre scripts. View <a href="/blogs/librejs.html" class="fg-black">JavaScript Licenses</a></div>
-		<div class="fg-white">Just to waste time, why not try opening this site in emacs?</div>
+	<footer class="bg-danger py-12 text-center fg-white">
+		<h2>GDucpm Blogs</h2>
+		<div>The blog contents are licensed under <a href="https://creativecommons.org/licenses/by-nd/4.0/" class="fg-black">Creative Commons Attribution-NoDerivatives 4.0 International</a></div>
+		<div>This site contains only libre scripts. View <a href="/blogs/librejs.html" class="fg-black">JavaScript Licenses</a></div>
+		<div>Just to waste time, why not try opening this site in emacs?</div>
 	</footer>
 </body>
 </html>
